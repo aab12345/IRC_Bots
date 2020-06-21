@@ -13,8 +13,8 @@ set_time_limit(0);
 
 // Change these values!
 $channel  = '#channel';
-$nickname = 'username';
-$password = 'password';
+$nickname = 'your_irc_username';
+$password = 'your_irc_password';
 
 // Opening the socket to the network
 $socket = fsockopen("irc.freenode.net", 6667);
